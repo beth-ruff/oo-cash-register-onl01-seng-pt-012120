@@ -16,6 +16,7 @@ class CashRegister
         @items << title 
         counter += 1 
         end
+      end
         @total += price * quantity
         @last_transaction = price * quantity
       end 
